@@ -3,6 +3,7 @@ import notify2
 import cookielib
 import urllib
 import urllib2
+import os
 
 
 cj = cookielib.CookieJar()
@@ -31,7 +32,7 @@ s = url.read()
 
 while 'submission' in s:
 	# path to notification window icon
-	ICON_PATH = "/home/rahul/Desktop/PendingSubmissionNotifier/src/notify.png"
+	ICON_PATH = "/home/rahul/Downloads/PSC/src/notify.png"
 	 
 	 
 	# initialise the d-bus connection
@@ -51,9 +52,13 @@ while 'submission' in s:
 	 
 	# show notification on screen
 	n.show()
-	 
+	
+	a=300
+	b=2000
+
+	os.system('play --no-show-progress --null --channels 1 synth %s sine %f' % ( a, b))
+
 	# short delay between notifications
 	time.sleep(15)
-
 
 
