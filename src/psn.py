@@ -14,8 +14,8 @@ urllib2.install_opener(opener)
 authentication_url = 'http://puzzlepedia.esy.es/adminlogin.php'
 
 payload = {
-  'lemail': 'rlbagad2@gmail.com',
-  'lpwd': 'asdf'
+  'lemail': 'AdminEmail',
+  'lpwd': 'AdminPassword'
   }
 
 data = urllib.urlencode(payload)
