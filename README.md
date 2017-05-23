@@ -5,7 +5,7 @@ Desktop Notifier
 This python script notifies the admin of puzzlepedia(http://puzzlepedia.esy.es) about pending submissions.
 
 
-Tested on ubuntu 15.04
+Tested on ubuntu 16.04
 
 Python 2.7
 
