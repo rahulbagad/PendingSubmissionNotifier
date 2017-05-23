@@ -31,7 +31,7 @@ s = url.read()
 
 while 'submission' in s:
 	# path to notification window icon
-	ICON_PATH = "/home/rahul/Downloads/PSC/src/notify.png"
+	ICON_PATH = "/home/rahul/Desktop/PendingSubmissionNotifier/src/notify.png"
 	 
 	 
 	# initialise the d-bus connection
