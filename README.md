@@ -1,7 +1,9 @@
 # Pending Submission Notifier
 
-This python script notifies the admin of puzzlepedia about pending submissions.
 Desktop Notifier
+
+This python script notifies the admin of puzzlepedia about pending submissions.
+
 
 Tested on ubuntu 15.04
 
